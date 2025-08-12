@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Stats</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Stats Calculator</title>
   </head>
   <body>
-    <h1>Check the browser console :)</h1>
+    <h1>Stats Calculator</h1>
+
+    <label for="numbersInput">Enter numbers separated by commas:</label><br />
+    <input
+      id="numbersInput"
+      type="text"
+      placeholder="e.g. 1, 2, 3, 4"
+      size="30"
+    />
+    <button id="calcBtn">Calculate</button>
+
+    <h2>Results:</h2>
+    <div id="results"></div>
+
+    <script src="index.js"></script>
   </body>
 </html>
